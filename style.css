@@ -1,0 +1,35 @@
+.header{
+ display: flex;
+ background-image: url(./images/donation5.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: calc(70%);
+}
+.head-text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:7%;
+    margin: 30px 100px;
+}
+.h-title{
+    background-color: rgba(0, 0, 0, 0.372);
+    font-size: 60px;
+    color: #fff;
+    border-radius: 15px;
+}
+.h-description{
+ font-size: 25px;
+ color: #fff;
+ background-color: rgba(0, 0, 0, 0.372);
+ border-radius: 10px;
+}
+.donate-now{
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 5px solid rgba(227, 12, 12, 0.887);
+    box-shadow: 5px 5px 5px gray;
+}

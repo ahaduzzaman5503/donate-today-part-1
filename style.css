@@ -30,6 +30,73 @@
     padding: 10px;
     border-radius: 10px;
     font-size: 24px;
-    border: 5px solid rgba(227, 12, 12, 0.887);
+    border: 5px solid rgba(240, 7, 7, 0.933);
     box-shadow: 5px 5px 5px gray;
+}
+
+
+.donate-today{
+    margin: 100px 250px;
+}
+.donate-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 250px;
+    
+   
+}
+
+.tk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin: 5px 230px;
+}
+.tk-single{
+    border: 3px solid rgb(247, 244, 244);
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.866);
+    border-radius: 10px;
+    color: rgba(7, 7, 7, 0.813);
+    box-shadow: 5px 5px 5px rgb(237, 231, 231);
+   
+}
+.d-tk{
+    color: red;
+    border: 1px solid red;
+    background-color: rgba(198, 19, 19, 0.318);
+}
+
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.797);
+}
+.donate-des{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.759);
+}
+.other-amaunt{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.422);
+}
+
+.hr-row{
+    margin: 20px 250px;
+    height: 2px;
+    color:white;
+    background-color: gray;
+}
+
+.btn-donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
